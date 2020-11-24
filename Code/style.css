@@ -1,0 +1,238 @@
+body{
+  margin: 0;
+}
+
+.caixa_menu{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.menu{
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.linkmenu{
+  text-decoration: none;
+  font-family: "be_vietnam";
+  font-weight: bold;
+  font-size: 14px;
+  color: #454343;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.caixa1{
+  background: url("images/Banner_site.png");
+  background-repeat: no-repeat;
+  padding-top: 390px;
+  padding-left: 300px;
+  background-size:100% 100%;
+}
+
+.subtitulo1{
+  font-family: "be_vietnam";
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.titulo{
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 70px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.subtitulo2{
+  font-family: "be_vietnam";
+  font-style: italic;
+  font-size: 14px;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.botao_entrar{
+  background: #FFC300;
+  color: white;
+  font-family: "be_vietnam";
+  font-size: 14px;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  padding-bottom: 5px;
+  margin-bottom: 90px;
+  box-shadow: 3px 3px 2px rgba(48, 48, 48, 0.781);
+}
+
+.caixa2{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.subtitulo3{
+  font-family: "be_vietnam";
+  font-size: 36px;
+  color: #FFC300;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.subtitulo4{
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 16px;
+  color: #454343;
+  padding-bottom: 100px;
+}
+
+.caixa_amarela{
+  width: 100%;
+  height: 300px;
+  background-image: url("images/Relembre.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+.circulos{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25%; 
+  padding-left: 25%; 
+  padding-bottom: 80px;
+}
+
+.circulo1{
+  background: url("images/Bottom1.png");
+  background-size: 155px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.circulo2{
+  background: url("images/Bottom2.png");
+  background-size: 155px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.circulo3{
+  background: url("images/Bottom3.png");
+  background-size: 155px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.subtitulo5{
+  font-family: "be_vietnam";
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding-top: 60px;
+}
+
+.caixa3{
+  text-align: center;
+  vertical-align: middle;
+  background: #F5F5F5;
+}
+
+.subcaixas{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15%; 
+  padding-left: 15%; 
+  padding-bottom: 80px;
+}
+
+.subcaixa{
+  padding-top: 40px;
+  background: #FFC300;
+  width: 250px;
+  float: left;
+}
+
+.subtitulo6{
+  font-family: "be_vietnam";
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.subtitulo7{
+  font-family: "be_vietnam";
+  font-size: 12px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.caixa4{
+  text-align: center;
+  vertical-align: middle;
+  background: white;
+}
+
+.colaboradores{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 32%; 
+  padding-left: 35%; 
+  padding-bottom: 80px;
+}
+
+.caixa5{
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(0, 119, 255);
+}
+
+.subtitulo8{
+  font-family: "be_vietnam";
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.subtitulo9{
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-size: 16px;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.contatos{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40%; 
+  padding-left: 37%; 
+  padding-bottom: 50px;
+}
+
+.subtitulo10{
+  padding-top: 15px; 
+  text-align: center;
+  font-family: "be_vietnam";
+  font-size: 10px;
+  color: #454343;
+  padding-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'be_vietnam';
+    src: url('fonts/bevietnam-regular-webfont.woff2') format('woff2'),
+         url('fonts/bevietnam-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

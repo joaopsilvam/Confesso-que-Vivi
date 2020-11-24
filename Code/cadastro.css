@@ -1,0 +1,91 @@
+body{
+  background-color: rgb(24, 153, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.caixa{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  width: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	-webkit-box-shadow: 6px 5px 5px rgba(88, 88, 88, 0.77);
+	-moz-box-shadow: 6px 5px 5px rgba(53, 109, 141, 0.77);
+	box-shadow: 6px 5px 5px rgba(53, 109, 141, 0.77);
+}
+
+.titulo1{
+  font-family: "Mont_bold";
+  font-weight: bold;
+  text-align: start;
+  color: rgb(53, 53, 53);
+  width: 260px;
+  font-size: 18px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.subtitulo1{
+  font-family: "Montserrat";
+  text-align: start;
+  color: rgb(182, 182, 182);
+  width: 260px;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.rotulo{
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: start;
+  color: rgb(95, 95, 95);
+  width: 260px;
+  font-size: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.texto input{
+  height: 33px;
+  width: 250px;
+  border: none;
+  background-color: #E9E9E9;
+  font-family: "Montserrat";
+  font-size: 9px;
+  padding-left: 8px;
+}
+
+.botao_entrar{
+  background: rgb(255,195,0);
+  color: white;
+  font-family: "Montserrat";
+  font-size: 10px;
+  width: 260px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont_bold';
+    src: url('fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
